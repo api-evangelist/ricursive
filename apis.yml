@@ -1,7 +1,26 @@
 aid: ricursive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ricursive.png
 name: Ricursive
-description: Ricursive is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ricursive (Ricursive Intelligence) is a frontier AI lab building self-improving
+  systems, starting with chip design. The company combines modern AI methods with
+  semiconductor and electronic design automation (EDA) workflows to create a feedback
+  loop between AI systems and the hardware that runs them. It was founded by veterans
+  from Google DeepMind, Anthropic, and NVIDIA (including researchers behind AlphaChip)
+  and is backed by leading investors. As of this profile Ricursive publishes a public
+  marketing and careers site but no public API, SDK, developer documentation, or
+  developer product surface — so there is no API artifact to harvest. This company
+  profile is maintained in the API Evangelist network for discovery and monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/ricursive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Chip Design
+- Semiconductors
+- Electronic Design Automation
+- AI Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://ricursive.com
+- type: Careers
+  url: https://ricursive.com/careers
+- type: DomainSecurity
+  url: security/ricursive-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
