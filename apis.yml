@@ -45,7 +45,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Chip Design
 - Semiconductors
 - Electronic Design Automation
@@ -58,6 +58,7 @@ tags_raw:
 - Semiconductors
 - Electronic Design Automation
 - AI Lab
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
